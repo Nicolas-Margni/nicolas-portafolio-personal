@@ -1,0 +1,352 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "es": {
+                "title_short": "Educación",
+                "title_short_nav": "Educación",
+                "title_long_prefix": "Esta es mi",
+                "title_long": "{{Formación}} Educativa"
+            },
+            "fr": {
+                "title_short": "Éducation",
+                "title_short_nav": "Éducation",
+                "title_long_prefix": "C'est mon",
+                "title_long": "{{Contexte}} Éducatif"
+            },
+            "pt-br": {
+                "title_short": "Educação",
+                "title_short_nav": "Educação",
+                "title_long_prefix": "Esta é minha",
+                "title_long": "{{Formação}} Educacional"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/timeline-place-redhat.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2020, "month": 1},
+                    "dateEnd": {"year": 2025, "month": 3},
+                    "locales": {
+                        "en": {
+                            "title": "{{Self-taught}} Training in Cybersecurity {{(Red Team)}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Self-taught",
+                            "text": "Self-taught training in {{offensive cybersecurity}}, developed independently from an early age due to personal interest, with a focus on technical practice, continuous learning, and experimentation in controlled environments. Some of the tools I used were:",
+                            "list": [
+                                "Nmap",
+                                "Nessus",
+                                "Burp Suite",
+                                "sqlmap",
+                                "Metasploit Framework",
+                                "John the Ripper",
+                                "Kali Linux",
+                                "VirtualBox / VMware"
+                            ],
+                            "tags": [
+                                "Hack The Box",
+                                "TryHackMe"
+                            ]
+                        },
+                        "es": {
+                            "title": "Formación {{Autodidacta}} en Ciberseguridad {{(Red Team)}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Autodidacta",
+                            "text": "Formación autodidacta en {{ciberseguridad ofensiva}}, desarrollada de manera independiente desde temprana edad por interés personal, con foco en la práctica técnica, el aprendizaje continuo y la experimentación en entornos controlados, algunas de las herrameintas que utilize fueron:",
+                            "list": [
+                                "Nmap",
+                                "Nessus",
+                                "Burp Suite",
+                                "sqlmap",
+                                "Metasploit Framework",
+                                "John the Ripper",
+                                "Kali Linux",
+                                "VirtualBox / VMware"
+                            ],
+                            "tags": [
+                                "Hack The Box",
+                                "TryHackMe"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Formation {{Autodidacte}} en Cybersécurité {{(Red Team)}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Autodidacte",
+                            "text": "Formation autodidacte en {{cybersécurité offensive}}, développée de manière indépendante dès le plus jeune âge par intérêt personnel, avec un accent sur la pratique technique, l'apprentissage continu et l'expérimentation dans des environnements contrôlés. Certains des outils que j'ai utilisés sont :",
+                            "list": [
+                                "Nmap",
+                                "Nessus",
+                                "Burp Suite",
+                                "sqlmap",
+                                "Metasploit Framework",
+                                "John the Ripper",
+                                "Kali Linux",
+                                "VirtualBox / VMware"
+                            ],
+                            "tags": [
+                                "Hack The Box",
+                                "TryHackMe"
+                            ]
+                        },
+                        "pt-br": {
+                            "title": "Formação {{Autodidata}} em Cibersegurança {{(Red Team)}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Autodidata",
+                            "text": "Formação autodidata em {{cibersegurança ofensiva}}, desenvolvida de forma independente desde tenra idade por interesse pessoal, com foco na prática técnica, aprendizado contínuo e experimentação em ambientes controlados. Algumas das ferramentas que utilizei foram:",
+                            "list": [
+                                "Nmap",
+                                "Nessus",
+                                "Burp Suite",
+                                "sqlmap",
+                                "Metasploit Framework",
+                                "John the Ripper",
+                                "Kali Linux",
+                                "VirtualBox / VMware"
+                            ],
+                            "tags": [
+                                "Hack The Box",
+                                "TryHackMe"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/timeline-place-idna.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2019, "month": 3},
+                    "dateEnd": {"year": 2024, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "High School Diploma - Social Sciences and Communication",
+                            "province": "Buenos Aires",
+                            "country": "Argentina",
+                            "institution": "Instituto Directivo Nicolás Avellaneda",
+                            "text": "Secondary education in Social Sciences and Communication, oriented towards the development of critical thinking, information analysis, and clear and structured communication, key skills for team work environments.",
+                            "list": [],
+                            "tags": [
+                                "Communications",
+                                "Critical thinking",
+                                "Teamwork"
+                            ]
+                        },
+                        "es": {
+                            "title": "Bachiller - Ciencias sociales y comunicacion",
+                            "province": "Buenos aires",
+                            "country": "Argentina.",
+                            "institution": "Instituto directivo nicolas avellaneda",
+                            "text": "Formación secundaria en Ciencias Sociales y Comunicación, orientada al desarrollo del pensamiento crítico, el análisis de información y la comunicación clara y estructurada, habilidades clave para entornos de trabajo en equipo.",
+                            "list": [],
+                            "tags": [
+                                "Comunicaciones",
+                                "Pensamiento critico",
+                                "Trabajo en equipo"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Baccalauréat - Sciences sociales et communication",
+                            "province": "Buenos Aires",
+                            "country": "Argentine",
+                            "institution": "Instituto Directivo Nicolás Avellaneda",
+                            "text": "Formation secondaire en Sciences sociales et Communication, orientée vers le développement de la pensée critique, l'analyse de l'information et la communication claire et structurée, compétences clés pour les environnements de travail en équipe.",
+                            "list": [],
+                            "tags": [
+                                "Communications",
+                                "Pensée critique",
+                                "Travail d'équipe"
+                            ]
+                        },
+                        "pt-br": {
+                            "title": "Ensino Médio - Ciências Sociais e Comunicação",
+                            "province": "Buenos Aires",
+                            "country": "Argentina",
+                            "institution": "Instituto Directivo Nicolás Avellaneda",
+                            "text": "Formação secundária em Ciências Sociais e Comunicação, orientada ao desenvolvimento do pensamento crítico, análise de informações e comunicação clara e estruturada, habilidades fundamentais para ambientes de trabalho em equipe.",
+                            "list": [],
+                            "tags": [
+                                "Comunicações",
+                                "Pensamento crítico",
+                                "Trabalho em equipe"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/timeline-place-up.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 2},
+                    "dateEnd": {"year": 2027, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{University Analyst}} in cybersecurity - {{IN PROGRESS}}",
+                            "province": "Palermo",
+                            "country": "Argentina",
+                            "institution": "University of Palermo",
+                            "text": "University education corresponding to the {{intermediate degree of the Bachelor's Degree in Cybersecurity}}, with a technical and operational focus on the analysis, detection, and mitigation of threats in systems and networks.<p><p>The training is oriented towards performance as a {{cybersecurity analyst}}, developing practical competencies in security monitoring, vulnerability analysis, application of technical controls, and support in incident response.",
+                            "list": [
+                                "Technical analysis of vulnerabilities in systems and networks",
+                                "Monitoring of security events and incident detection",
+                                "Technical documentation and security reports",
+                                "Implementation of computer security controls"
+                            ],
+                            "tags": [
+                                "incident response",
+                                "documentation",
+                                "cybersecurity",
+                                "blue team",
+                                "monitoring"
+                            ]
+                        },
+                        "es": {
+                            "title": "{{Analista universitario}} en ciberseguridad - {{EN CURSO}}",
+                            "province": "Palermo",
+                            "country": "Argentina",
+                            "institution": "Universidad de Palermo",
+                            "text": "Formación universitaria correspondiente al {{título intermedio de la Licenciatura en Ciberseguridad}}, con enfoque técnico y operativo en el análisis, detección y mitigación de amenazas en sistemas y redes.<p><p>La formación está orientada al desempeño como {{analista de ciberseguridad}}, desarrollando competencias prácticas en monitoreo de seguridad, análisis de vulnerabilidades, aplicación de controles técnicos y soporte en la respuesta a incidentes.",
+                            "list": [
+                                "Análisis técnico de vulnerabilidades en sistemas y redes",
+                                "Monitoreo de eventos de seguridad y detección de incidentes",
+                                "Documentación técnica y reportes de seguridad",
+                                "Implementación de controles de seguridad informática"
+                            ],
+                            "tags": [
+                                "respuesta a incidentes",
+                                "documentación",
+                                "ciberseguridad",
+                                "blue team",
+                                "monitoreo"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Analyste universitaire}} en cybersécurité - {{EN COURS}}",
+                            "province": "Palerme",
+                            "country": "Argentine",
+                            "institution": "Université de Palerme",
+                            "text": "Formation universitaire correspondant au {{diplôme intermédiaire de la Licence en Cybersécurité}}, avec une orientation technique et opérationnelle dans l'analyse, la détection et l'atténuation des menaces dans les systèmes et réseaux.<p><p>La formation est orientée vers l'exercice en tant qu'{{analyste en cybersécurité}}, développant des compétences pratiques en surveillance de la sécurité, analyse des vulnérabilités, application de contrôles techniques et support dans la réponse aux incidents.",
+                            "list": [
+                                "Analyse technique des vulnérabilités dans les systèmes et réseaux",
+                                "Surveillance des événements de sécurité et détection des incidents",
+                                "Documentation technique et rapports de sécurité",
+                                "Mise en œuvre de contrôles de sécurité informatique"
+                            ],
+                            "tags": [
+                                "réponse aux incidents",
+                                "documentation",
+                                "cybersécurité",
+                                "blue team",
+                                "surveillance"
+                            ]
+                        },
+                        "pt-br": {
+                            "title": "{{Analista universitário}} em cibersegurança - {{EM ANDAMENTO}}",
+                            "province": "Palermo",
+                            "country": "Argentina",
+                            "institution": "Universidade de Palermo",
+                            "text": "Formação universitária correspondente ao {{título intermediário da Licenciatura em Cibersegurança}}, com foco técnico e operacional na análise, detecção e mitigação de ameaças em sistemas e redes.<p><p>A formação está orientada para o desempenho como {{analista de cibersegurança}}, desenvolvendo competências práticas em monitoramento de segurança, análise de vulnerabilidades, aplicação de controles técnicos e suporte na resposta a incidentes.",
+                            "list": [
+                                "Análise técnica de vulnerabilidades em sistemas e redes",
+                                "Monitoramento de eventos de segurança e detecção de incidentes",
+                                "Documentação técnica e relatórios de segurança",
+                                "Implementação de controles de segurança da informação"
+                            ],
+                            "tags": [
+                                "resposta a incidentes",
+                                "documentação",
+                                "cibersegurança",
+                                "blue team",
+                                "monitoramento"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/timeline-place-up.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 3},
+                    "dateEnd": {"year": 2029, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Bachelor's Degree}} in cybersecurity - {{IN PROGRESS}}",
+                            "province": "Palermo",
+                            "country": "Argentina",
+                            "institution": "University of Palermo",
+                            "text": "Currently pursuing a Bachelor's Degree in Cybersecurity, with training oriented towards the comprehensive management of information security, strategic decision-making, and coordination of technical teams in high-criticality environments.<p><p>The academic approach prepares for assuming leadership roles in cybersecurity, combining risk analysis, security policy definition, deep technical understanding and legal framework, with the objective of protecting digital assets and ensuring the operational continuity of organizations.",
+                            "list": [
+                                "Coordination and supervision of technical security teams",
+                                "Decision-making in the face of security incidents",
+                                "Vulnerability assessment and prioritization of corrective actions"
+                            ],
+                            "tags": ["cybersecurity", "decision-making", "communications", "blue team", "leadership"]
+                        },
+                        "es": {
+                            "title": "{{Licenciatura}} en ciberseguridad - {{EN CURSO}}",
+                            "province": "Palermo",
+                            "country": "Argentina.",
+                            "institution": "Universidad de Palermo",
+                            "text": "Actualmente cursando la Licenciatura en Ciberseguridad, con una formación orientada a la gestión integral de la seguridad de la información, la toma de decisiones estratégicas y la coordinación de equipos técnicos en entornos de alta criticidad.<p><p>El enfoque académico prepara para asumir roles de liderazgo en ciberseguridad, combinando análisis de riesgos, definición de políticas de seguridad, comprensión técnica profunda y marco legal, con el objetivo de proteger activos digitales y garantizar la continuidad operativa de las organizaciones.",
+                            "list": [
+                                "Coordinación y supervisión de equipos técnicos de seguridad",
+                                "Toma de decisiones ante incidentes de seguridad",
+                                "Evaluación de vulnerabilidades y priorización de acciones correctivas"
+                            ],
+                            "tags": ["ciberseguridad", "toma de deciciones", "comunicaciones", "blue team", "liderazgo"]
+                        },
+                        "fr": {
+                            "title": "{{Licence}} en cybersécurité - {{EN COURS}}",
+                            "province": "Palerme",
+                            "country": "Argentine",
+                            "institution": "Université de Palerme",
+                            "text": "Actuellement en Licence en Cybersécurité, avec une formation orientée vers la gestion intégrée de la sécurité de l'information, la prise de décisions stratégiques et la coordination d'équipes techniques dans des environnements de haute criticité.<p><p>L'approche académique prépare à assumer des rôles de leadership en cybersécurité, combinant l'analyse des risques, la définition des politiques de sécurité, une compréhension technique approfondie et le cadre juridique, dans le but de protéger les actifs numériques et d'assurer la continuité opérationnelle des organisations.",
+                            "list": [
+                                "Coordination et supervision des équipes techniques de sécurité",
+                                "Prise de décision face aux incidents de sécurité",
+                                "Évaluation des vulnérabilités et priorisation des actions correctives"
+                            ],
+                            "tags": ["cybersécurité", "prise de décisions", "communications", "blue team", "leadership"]
+                        },
+                        "pt-br": {
+                            "title": "{{Licenciatura}} em cibersegurança - {{EM ANDAMENTO}}",
+                            "province": "Palermo",
+                            "country": "Argentina",
+                            "institution": "Universidade de Palermo",
+                            "text": "Atualmente cursando Licenciatura em Cibersegurança, com uma formação orientada para a gestão integrada da segurança da informação, tomada de decisões estratégicas e coordenação de equipes técnicas em ambientes de alta criticidade.<p><p>A abordagem acadêmica prepara para assumir funções de liderança em cibersegurança, combinando análise de riscos, definição de políticas de segurança, compreensão técnica profunda e quadro legal, com o objetivo de proteger ativos digitais e garantir a continuidade operacional das organizações.",
+                            "list": [
+                                "Coordenação e supervisão de equipes técnicas de segurança",
+                                "Tomada de decisões diante de incidentes de segurança",
+                                "Avaliação de vulnerabilidades e priorização de ações corretivas"
+                            ],
+                            "tags": ["cibersegurança", "tomada de decisões", "comunicações", "blue team", "liderança"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

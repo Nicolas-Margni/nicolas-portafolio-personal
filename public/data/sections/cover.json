@@ -1,0 +1,274 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Nicolas Margni!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Nicolas Margni!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Nicolas Margni !}}"
+            },
+            "pt-br": {
+                "title_short": "Bem-vindo!",
+                "title_short_nav": "Sobre mim",
+                "title_long_prefix": "Olá...",
+                "title_long": "Eu sou {{Nicolas Margni!}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Argentina – CABA",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "nicolasmargniup@gmail.com",
+                    "link": {"href": "mailto:nicolasmargniup@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@Nicolas-Margni",
+                    "link": {"href": "https://github.com/Nicolas-Margni", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "pt-br": {"title": "{{Um pouco}} sobre mim..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I am a Cybersecurity Bachelor's student with a solid foundation in computer science, systems, and networks. I am interested in starting my professional career in IT and systems roles, where I can learn in real environments, provide practical solutions, and continue deepening my knowledge in cybersecurity.</p><p>I have experience with backend development and automation with IA, which allows me to understand how applications work internally, identify common risks, and apply security best practices. I also have knowledge in Linux, networks, and deployment environments, and I feel comfortable constantly learning new technologies.</p><p>I seek to be part of a team where I can grow professionally, take on responsibilities, and progressively evolve towards cybersecurity roles.</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy estudiante de la Licenciatura en Ciberseguridad, con una base sólida en informática, sistemas y redes. Me interesa comenzar mi carrera profesional en roles de IT y sistemas, donde pueda aprender en entornos reales, aportar soluciones prácticas y seguir profundizando en ciberseguridad.</p><p>Tengo experiencia con desarrollo backend y automatización con IA, lo que me permite comprender cómo funcionan las aplicaciones por dentro, identificar riesgos comunes y aplicar buenas prácticas de seguridad. También cuento con conocimientos en Linux, redes y entornos de despliegue, y me siento cómodo aprendiendo nuevas tecnologías de forma constante.</p><p>Busco formar parte de un equipo donde pueda crecer profesionalmente, asumir responsabilidades y evolucionar progresivamente hacia roles de ciberseguridad.</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis étudiant en Licence de Cybersécurité, avec une base solide en informatique, systèmes et réseaux. Je souhaite commencer ma carrière professionnelle dans des rôles IT et systèmes, où je pourrai apprendre en directement au sein de votre entreprise, apporter des solutions pratiques et continuer à approfondir mes connaissances en cybersécurité.</p><p>Ayant de l'expérience en développement backend et automatisation, cela me permet de comprendre le fonctionnement interne des applications, d'identifier les risques courants et d'appliquer les bonnes mesures de sécurité. Je dispose également de connaissance en Linux, réseaux et environnements de déploiement, je suis à l'aise  et curieux  d'apprendre constamment de nouvelles technique et approche technologiques.</p><p>Je cherche à intégrer une équipe où je pourrai grandir professionnellement, assumer des responsabilités et évoluer progressivement vers des rôles en cybersécurité.</p>"
+                        },
+                        "pt-br": {
+                            "text":"<p>Sou estudante da Licenciatura em Cibersegurança, com uma base sólida em informática, sistemas e redes. Me interesso em iniciar minha carreira profissional em funções de TI e sistemas, onde possa aprender em ambientes reais, oferecer soluções práticas e continuar aprofundando meus conhecimentos em cibersegurança.</p><p>Tenho experiência com desenvolvimento backend e automação com IA, o que me permite compreender como as aplicações funcionam internamente, identificar riscos comuns e aplicar boas práticas de segurança. Também possuo conhecimentos em Linux, redes e ambientes de implantação, e me sinto confortável aprendendo novas tecnologias de forma constante.</p><p>Busco fazer parte de uma equipe onde possa crescer profissionalmente, assumir responsabilidades e evoluir progressivamente para funções em cibersegurança.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "},
+                "pt-br": {"title": "Interesses {{pessoais}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{AI}} Application in Cybersecurity",
+                            "text": "Researching how artificial intelligence can be applied to threat detection, process automation, and improving cybersecurity solutions."
+                        },
+                        "es": {
+                            "title": "Aplicación de {{IA}} en Ciberseguridad",
+                            "text": "Investigando cómo la inteligencia artificial puede aplicarse a la detección de amenazas, automatización de procesos y mejora de soluciones en ciberseguridad."
+                        },
+                        "fr": {
+                            "title": " Application de {{l'IA}} en Cybersécurité",
+                            "text": "Je recherche comment l'intelligence artificielle peut être appliquée à la détection des menaces, à l'automatisation des processus et à l'amélioration des solutions en cybersécurité."
+                        },
+                        "pt-br": {
+                            "title": " Aplicação de {{IA}} em Cibersegurança",
+                            "text": "Pesquisando como a inteligência artificial pode ser aplicada à detecção de ameaças, automação de processos e melhoria de soluções em cibersegurança."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-comments",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Effective {{Communication}} and Expression",
+                            "text": "Consciously working to improve my oral and written communication, aiming to express technical ideas in a clear, understandable, and professional manner."
+                        },
+                        "es": {
+                            "title": "{{Comunicación}} y expresión efectiva",
+                            "text": "Trabajando de forma consciente en mejorar mi comunicación oral y escrita, buscando expressar ideas técnicas de manera clara, comprensible y profesional."
+                        },
+                        "fr": {
+                            "title": "{{Communication}} et expression efficaces",
+                            "text": "Je travaille consciemment à améliorer ma communication orale et écrite, en cherchant à exprimer des idées techniques de manière claire, compréhensible et professionnelle."
+                        },
+                        "pt-br": {
+                            "title": "{{Comunicação}} e Expressão Eficazes",
+                            "text": "Trabalhando conscientemente para melhorar minha comunicação oral e escrita, buscando expressar ideias técnicas de maneira clara, compreensível e profissional."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Investing}} & Finance",
+                            "text": "Learning the fundamentals of investing and personal finance, with a focus on long-term decision-making and financial discipline."
+                        },
+                        "es": {
+                            "title": "{{Inversión}} y Finanzas",
+                            "text": "Aprendendo los fundamentos de la inversión y las finanzas personales, con foco en la toma de decisiones a largo plazo y la disciplina financiera."
+                        },
+                        "fr": {
+                            "title": "{{Investissement}} & Finance",
+                            "text": "Apprenant les bases de l'investissement et des finances personnelles, avec un accent sur la prise de décision à long terme et la discipline financière."
+                        },
+                        "pt-br": {
+                            "title": "{{Investimentos}} e Finanças",
+                            "text": "Aprendendo os fundamentos de investimentos e finanças pessoais, com foco na tomada de decisões de longo prazo e na disciplina financeira."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-hat-cowboy",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Red Team}} Practice",
+                            "text": "Training in offensive mindset to understand how attackers think, convinced that proper defense requires knowledge of attack techniques."
+                        },
+                        "es": {
+                            "title": "Práctica de {{Red Team}}",
+                            "text": "Entrenando la mentalidad ofensiva para comprender cómo piensan los atacantes, convencido de que para defender correctamente es necesario conocer las técnicas de ataque."
+                        },
+                        "fr": {
+                            "title": "Pratique de {{Red Team}}",
+                            "text": "Je m'entraîne à adopter une mentalité offensive pour comprendre comment pensent les attaquants, convaincu que pour bien défendre, il faut connaître les techniques d'attaque."
+                        },
+                        "pt-br": {
+                            "title": "Prática de {{Red Team}}",
+                            "text": "Treinando a mentalidade ofensiva para entender como os atacantes pensam, convencido de que para defender corretamente é necessário conhecer as técnicas de ataque."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-dumbbell",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": " {{Physical}} Activity",
+                            "text": "Practicing Brazilian Jiu-Jitsu, MMA, and gym training — activities that have taught me the importance of consistency, discipline, and mental balance."
+                        },
+                        "es": {
+                            "title": "Actividad {{física}}",
+                            "text": "Practicando Brazilian Jiu-Jitsu, MMA y entrenamiento en gimnasio, actividades que me enseñaron la importancia de la constancia, la disciplina y el equilibrio mental."
+                        },
+                        "fr": {
+                            "title": "Activité {{physique}}",
+                            "text": "Je pratique le Jiu-Jitsu brésilien, le MMA et la musculation en salle — des activités qui m'ont enseigné l'importance de la constance, de la discipline et de l'équilibre mental."
+                        },
+                        "pt-br": {
+                            "title": "Atividade {{Física}}",
+                            "text": "Praticando Jiu-Jitsu brasileiro, MMA e treinamento na academia — atividades que me ensinaram a importância da constância, disciplina e equilíbrio mental."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-music",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{piano}}",
+                            "text": "Playing the piano as a space for concentration, creativity, and disconnection, complementing the analytical focus of the technical field."
+                        },
+                        "es": {
+                            "title": "Tocar {{piano}}",
+                            "text": "Tocar el piano como espacio de concentración, creatividad y desconexión, complementando el enfoque analítico del ámbito técnico."
+                        },
+                        "fr": {
+                            "title": "Jouer {{piano}}",
+                            "text": "Jouer du piano comme espace de concentration, de créativité et de déconnexion, complémentant ainsi l'approche analytique du domaine technique."
+                        },
+                        "pt-br": {
+                            "title": "Tocar {{piano}}",
+                            "text": "Tocar piano como espaço de concentração, criatividade e desconexão, complementando o foco analítico do campo técnico."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "pt-br": {
+                "title_short": "Portfólio",
+                "title_short_nav": "Portfólio",
+                "title_long_prefix": "Confira",
+                "title_long": "Meu {{Portfólio}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps/Web",
+                    "category_cybersegurity": "Cybersecurity",
+                    "category_tools": "Utilities"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_apps": "Apps/Web",
+                    "category_cybersegurity": "Ciberseguridad",
+                    "category_tools": "Herramientas"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_apps": "Apps/Web",
+                    "category_cybersegurity": "Cybersécurité",
+                    "category_tools": "Utilitaires"
+                },
+                "pt-br": {
+                    "category_all": "Todos",
+                    "category_apps": "Aplicativos/Web",
+                    "category_cybersegurity": "Cibersegurança",
+                    "category_tools": "Utilitários"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_cybersegurity", "category_tools"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/Nicolas-Margni", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-portafolio-1.png",
+                            "images/pictures/screenshot-portafolio-2.png",
+                            "images/pictures/screenshot-portafolio-3.png",
+                            "images/pictures/screenshot-portafolio-4.png",
+                            "images/pictures/screenshot-portafolio-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Personal Portfolio Website",
+                            "text": "My personal website where I showcase my projects, share my updates, and where you can get to know me better.",
+                            "tags": ["Portfolio", "Personal Website", "Web Development"]
+                        },
+                        "es": {
+                            "title": "Sitio Web de Portafolio Personal",
+                            "text": "Mi sitio web personal donde muestro mis proyectos, comparto mis actualizaciones y donde puedes conocerme un poco mejor.",
+                            "tags": ["Portafolio", "Sitio Personal", "Desarrollo Web"]
+                        },
+                        "fr": {
+                            "title": "Site Web Portfolio Personnel",
+                            "text": "Mon site web personnel où je présente mes projets, partage mes mises à jour et où vous pouvez mieux me connaître.",
+                            "tags": ["Portfolio", "Site Personnel", "Développement Web"]
+                        },
+                        "pt-br": {
+                            "title": "Site de Portfólio Pessoal",
+                            "text": "Meu site pessoal onde apresento meus projetos, compartilho minhas atualizações e onde você pode me conhecer um pouco melhor.",
+                            "tags": ["Portfólio", "Site Pessoal", "Desenvolvimento Web"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
