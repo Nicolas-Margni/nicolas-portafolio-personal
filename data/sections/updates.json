@@ -1,0 +1,322 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            },
+            "pt-br": {
+                "title_short": "Vida Recente",
+                "title_short_nav": "Atualizações",
+                "title_long_prefix": "Dê uma olhada nas minhas",
+                "title_long": "{{Atualizações}} Recentes"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-bugs",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "01",
+                            "text": "Apps Published"
+                        },
+                        "es": {
+                            "text": "Proyectos de ciberseguidad"
+                        },
+                        "fr": {
+                            "text": "Applications Publiées"
+                        },
+                        "pt-br": {
+                            "text": "Aplicativos Publicados"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-flask",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "10+",
+                            "text": "Stars on GitHub"
+                        },
+                        "es": {
+                            "text": "Labs completados"
+                        },
+                        "fr": {
+                            "text": "Étoiles sur GitHub"
+                        },
+                        "pt-br": {
+                            "text": "Estrelas no GitHub"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-comments",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "4",
+                            "text": "Countries visited"
+                        },
+                        "es": {
+                            "text": "aprendiendo idiomas"
+                        },
+                        "fr": {
+                            "text": "Pays Visités"
+                        },
+                        "pt-br": {
+                            "text": "Países Visitados"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "03",
+                            "text": "Open-source projects"
+                        },
+                        "es": {
+                            "text": "Proyectos de automatizacion"
+                        },
+                        "fr": {
+                            "text": "Projets Open-source"
+                        },
+                        "pt-br": {
+                            "text": "Projetos Open-source"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-power-off",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "20,000+",
+                            "text": "Coffees consumed"
+                        },
+                        "es": {
+                            "text": "Monsters Consumidas"
+                        },
+                        "fr": {
+                            "text": "Cafés Consommés"
+                        },
+                        "pt-br": {
+                            "text": "Cafés Consumidos"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-face-grin-squint",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "100,000+",
+                            "text": "Lines of code"
+                        },
+                        "es": {
+                            "text": "Sonrisas sacadas"
+                        },
+                        "fr": {
+                            "text": "Lignes de code"
+                        },
+                        "pt-br": {
+                            "text": "Linhas de código"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {
+                            "title": "Infinita",
+                            "text": "Pasión por Aprender"
+                        },
+                        "fr": {
+                            "title": "Infinie",
+                            "text": "Passion d'apprendre"
+                        },
+                        "pt-br": {
+                            "title": "Infinita",
+                            "text": "Paixão por Aprender"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" },
+                "fr": { "title": "Fil d'{{Actualités}}" },
+                "pt-br": { "title": "Feed de {{Notícias}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2025, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "#portfolio", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "My {{Portfolio}} is Live!",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "I'm excited to announce that my [[personal portfolio website]] is now officially live! 🎉 This platform showcases my projects, skills, and experience in web development and cybersecurity. It's built with modern technologies and features a responsive design that works perfectly on all devices. You can explore my work in the portfolio section and see the various projects I've been working on."
+                        },
+                        "es": {
+                            "title": "¡Mi {{Portafolio}} está en Línea!",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "¡Estoy emocionado de anunciar que mi [[sitio web de portafolio personal]] ya está oficialmente en línea! 🎉 Esta plataforma muestra mis proyectos, habilidades y experiencia en desarrollo web y ciberseguridad. Está construido con tecnologías modernas y cuenta con un diseño responsivo que funciona perfectamente en todos los dispositivos. Puedes explorar mi trabajo en la sección de portafolio y ver los diversos proyectos en los que he estado trabajando."
+                        },
+                        "fr": {
+                            "title": "Mon {{Portfolio}} est en Ligne!",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Je suis ravi d'annoncer que mon [[site web de portfolio personnel]] est maintenant officiellement en ligne ! 🎉 Cette plateforme présente mes projets, compétences et expérience en développement web et cybersécurité. Il est construit avec des technologies modernes et dispose d'un design responsive qui fonctionne parfaitement sur tous les appareils. Vous pouvez explorer mon travail dans la section portfolio et voir les différents projets sur lesquels j'ai travaillé."
+                        },
+                        "pt-br": {
+                            "title": "Meu {{Portfólio}} está no Ar!",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Estou muito feliz em anunciar que meu [[site de portfólio pessoal]] está oficialmente no ar! 🎉 Esta plataforma mostra meus projetos, habilidades e experiência em desenvolvimento web e segurança cibernética. Foi construído com tecnologias modernas e possui um design responsivo que funciona perfeitamente em todos os dispositivos. Você pode explorar meu trabalho na seção de portfólio e ver os diversos projetos em que tenho trabalhado."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2025, "month": 5},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Working on {{AI-Powered Honeypot}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "I'm currently developing an AI-powered honeypot with a user-friendly visual interface! This project aims to make cybersecurity tools more accessible. The plan includes:",
+                            "list": [
+                                "Visual interface for easy honeypot configuration and monitoring",
+                                "Machine learning algorithms to detect and analyze attack patterns",
+                                "Automated response system that adapts to different threats",
+                                "Comprehensive dashboard with real-time analytics and reporting",
+                                "Future expansion to make the honeypot fully AI-driven"
+                            ]
+                        },
+                        "es": {
+                            "title": "Trabajando en un {{Honeypot con IA}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "¡Actualmente estoy desarrollando un honeypot con IA que incluye una interfaz visual fácil de usar! Este proyecto tiene como objetivo hacer que las herramientas de ciberseguridad sean más accesibles. El plan incluye:",
+                            "list": [
+                                "Interfaz visual para configuración y monitoreo fácil del honeypot",
+                                "Documentacion automatica del ataque",
+                                "Sistema de respuesta automatizada que se adapta a diferentes amenazas",
+                                "Panel completo con análisis y reportes en tiempo real",
+                                "Expansión futura para hacer el honeypot completamente impulsado por IA"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développement d'un {{Honeypot avec IA}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Je développe actuellement un honeypot alimenté par IA avec une interface visuelle conviviale ! Ce projet vise à rendre les outils de cybersécurité plus accessibles. Le plan comprend :",
+                            "list": [
+                                "Interface visuelle pour une configuration et une surveillance faciles du honeypot",
+                                "Algorithmes d'apprentissage automatique pour détecter et analyser les modèles d'attaque",
+                                "Système de réponse automatisé qui s'adapte aux différentes menaces",
+                                "Tableau de bord complet avec analyse et rapports en temps réel",
+                                "Extension future pour rendre le honeypot entièrement piloté par IA"
+                            ]
+                        },
+                        "pt-br": {
+                            "title": "Trabalhando em {{Honeypot com IA}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Atualmente estou desenvolvendo um honeypot com IA que inclui uma interface visual amigável! Este projeto visa tornar as ferramentas de segurança cibernética mais acessíveis. O plano inclui:",
+                            "list": [
+                                "Interface visual para configuração e monitoramento fácil do honeypot",
+                                "Algoritmos de aprendizado de máquina para detectar e analisar padrões de ataque",
+                                "Sistema de resposta automatizada que se adapta a diferentes ameaças",
+                                "Painel abrangente com análises e relatórios em tempo real",
+                                "Expansão futura para tornar o honeypot totalmente orientado por IA"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

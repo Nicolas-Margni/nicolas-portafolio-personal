@@ -1,0 +1,142 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            },
+            "es": {
+                "title_short": "Contacto",
+                "title_short_nav": "Contacto",
+                "title_long_prefix": "No dudes en",
+                "title_long": "{{Contácta}}me"
+            },
+            "fr": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "N'hésitez pas à",
+                "title_long": "Me {{Contacter}}"
+            },
+            "pt-br": {
+                "title_short": "Contato",
+                "title_short_nav": "Contato",
+                "title_long_prefix": "Não hesite em",
+                "title_long": "{{Entrar em Contato}} comigo"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "gI9Q3SJe5TWiJP_Na",
+                "email_js_service_id": "service_kivpwg5",
+                "email_js_template_id": "template_5gttt7j"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "es": {
+                    "contact_thank_you_title": "{{Gracias}} por el contacto!",
+                    "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
+                    "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
+                    "title": "Envíame un {{mensaje}}"
+                },
+                "fr": {
+                    "contact_thank_you_title": "{{Merci}} pour le contact!",
+                    "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre tiempo y j'ai hâte de me connecter avec vous!",
+                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
+                    "title": "Envoyez-moi un {{message}}"
+                },
+                "pt-br": {
+                    "contact_thank_you_title": "{{Obrigado}} pelo contato!",
+                    "contact_thank_you_body": "Sua mensagem foi recebida e entrarei em contato em breve. Agradeço seu tempo e estou ansioso para conectar com você!",
+                    "contact_thank_you_footer": "A resposta será enviada para seu endereço de e-mail: {{$email}}",
+                    "title": "Envie-me uma {{mensagem}}"
+                }
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Or if you {{prefer}}..."},
+                "es": {"title": "O si {{prefieres}}..."},
+                "fr": {"title": "Ou si vous {{préférez}}..."},
+                "pt-br": {"title": "Ou se você {{prefere}}..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+54(11)65718070",
+                    "link": {"href": "tel:1165718070", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"},
+                        "fr": {"title": "Téléphone"},
+                        "pt-br": {"title": "Telefone"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "nicolasmargniup@gmail.com",
+                    "link": {"href": "mailto:nicolasmargniup@gmail.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "es": {"title": "Correo electrónico"},
+                        "fr": {"title": "E-mail"},
+                        "pt-br": {"title": "E-mail"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "Nicolas Agustin Margni",
+                    "link": {"href": "https://www.linkedin.com/in/nicolasagustinmargni/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "es": {"title": "LinkedIn"},
+                        "fr": {"title": "LinkedIn"},
+                        "pt-br": {"title": "LinkedIn"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@nicoomargni_",
+                    "link": {"href": "https://www.instagram.com/nicoomargni_/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "es": {"title": "Instagram"},
+                        "fr": {"title": "Instagram"},
+                        "pt-br": {"title": "Instagram"}
+                    }
+                }
+            ]
+        }
+    ]
+}

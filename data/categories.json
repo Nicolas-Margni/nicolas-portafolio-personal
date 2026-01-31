@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"title": "Home"},
+                "es": {"title": "Inicio"},
+                "fr": {"title": "Accueil"},
+                "pt-br": {"title": "Início"}
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "es": {"title": "Trayectoria"},
+                "fr": {"title": "Parcours"},
+                "pt-br": {"title": "Histórico"}
+            }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {"title": "Showcase"},
+                "es": {"title": "Vitrina"},
+                "fr": {"title": "Vitrine"},
+                "pt-br": {"title": "Mostruário"}
+            }
+        },
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {"title": "More"},
+                "es": {"title": "Más"},
+                "fr": {"title": "Plus"},
+                "pt-br": {"title": "Mais"}
+            }
+        }
+    ]
+}

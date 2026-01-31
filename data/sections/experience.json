@@ -1,0 +1,69 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "{{My}} professional",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Sobre {{mi}} ...",
+                "title_long": "Experiencia {{Laboral}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "{{Mon}} expérience",
+                "title_long": "{{Professionnelle}}"
+            },
+            "pt-br": {
+                "title_short": "Experiência",
+                "title_short_nav": "Experiência",
+                "title_long_prefix": "{{Minha}} experiencia",
+                "title_long": "{{Profissional}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{Current}} Situation"},
+                "es": {"title": "Situación {{Actual}}"},
+                "fr": {"title": "Situation {{Actuelle}}"},
+                "pt-br": {"title": "Situação {{Atual}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I don't have formal work experience in cybersecurity and IT yet, but I'm going all-in on personal projects (like this one) and learning as much as I can to build my professional profile.</p><p>I'll soon fill this section with work experiences that show what I can actually do and how I can contribute. In the meantime, feel free to check out my portfolio where I showcase all my projects.</p><p>If you're interested in my skills and want to help me fill this section or just have a chat to get to know me a bit, reach out! I'm eager to get started and dive into projects that challenge and motivate me.</p><div class='button-container' style='text-align: center; margin: 40px 0;'><a href='#portfolio' class='btn-portfolio' style='display: inline-block; padding: 16px 32px; background: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--primary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--primary-color)\"; this.style.borderColor=\"var(--primary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-briefcase' style='margin-right: 10px;'></i>View Portfolio</a><a href='#contact' class='btn-contact' style='display: inline-block; padding: 16px 32px; background: var(--secondary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--secondary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--secondary-color)\"; this.style.borderColor=\"var(--secondary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-envelope' style='margin-right: 10px;'></i>Contact Me</a></div>"
+                        },
+                        "es": {
+                            "text": "<p>Todavía no tengo experiencia laboral formal en ciberseguridad e IT, pero estoy laburando a full en proyectos propios (como este) y aprendiendo todo lo que puedo para ir armando mi perfil profesional.</p><p>Pronto voy a llenar esta sección con experiencias laborales que realmente muestren que lo que sé hacer funciona y cómo puedo aportar con mis conocimientos. Mientras tanto, podés chusmear mi portafolio donde tengo todos mis proyectos.</p><p>Si te interesan mis habilidades y te gustaría ayudarme a llenar esta sección o querés charlar para conocerme un poquito más, escribime sin drama. ¡Tengo muchas ganas de arrancar y meterme en proyectos que me desafíen y me motiven!</p><div class='button-container' style='text-align: center; margin: 40px 0;'><a href='#portfolio' class='btn-portfolio' style='display: inline-block; padding: 16px 32px; background: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--primary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--primary-color)\"; this.style.borderColor=\"var(--primary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-briefcase' style='margin-right: 10px;'></i>Ver Portafolio</a><a href='#contact' class='btn-contact' style='display: inline-block; padding: 16px 32px; background: var(--secondary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--secondary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--secondary-color)\"; this.style.borderColor=\"var(--secondary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-envelope' style='margin-right: 10px;'></i>Contactarme</a></div>"
+                        },
+                        "fr": {
+                            "text": "<p>A ce jour, je ne possede aucune d'expérience professionnelle en cybersécurité et IT, mais je me consacre à entierement à mes projets personnel et professionnel, etant amoureux de ce milieu j'enmagasine et j'apprend tout ce que je peux pour construire mon profil professionnel.</p><p>Bientôt, je remplirai cette section avec des expériences professionnelles qui montreront ce que je sais réellement faire et comment je peux contribuer. En attendant, vous pouvez jeter un œil à mon portfolio où je montre tous mes projets.</p><p>Si mes compétences vous intéressent et que vous souhaitez m'aider à remplir cette section ou simplement discuter pour me connaître un peu, contactez-moi ! J'ai hâte de commencer et de me lancer dans des projets stimulants et motivants.</p><div class='button-container' style='text-align: center; margin: 40px 0;'><a href='#portfolio' class='btn-portfolio' style='display: inline-block; padding: 16px 32px; background: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--primary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--primary-color)\"; this.style.borderColor=\"var(--primary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-briefcase' style='margin-right: 10px;'></i>Voir Portfolio</a><a href='#contact' class='btn-contact' style='display: inline-block; padding: 16px 32px; background: var(--secondary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--secondary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--secondary-color)\"; this.style.borderColor=\"var(--secondary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-envelope' style='margin-right: 10px;'></i>Me Contacter</a></div>"
+                        },
+                        "pt-br": {
+                            "text": "<p>Ainda não tenho experiência profissional formal em cibersegurança e TI, mas estou me dedicando totalmente a projetos pessoais (como este) e aprendendo tudo o que posso para construir meu perfil profissional.</p><p>Em breve vou preencher esta seção com experiências profissionais que realmente mostrem o que sei fazer e como posso contribuir. Enquanto isso, você pode dar uma olhada no meu portfólio onde apresento todos os meus projetos.</p><p>Se minhas habilidades te interessarem e você quiser me ajudar a preencher esta seção ou só bater um papo para me conhecer melhor, é só me chamar! Estou com muita vontade de começar e me envolver em projetos que me desafiem e me motivem.</p><div class='button-container' style='text-align: center; margin: 40px 0;'><a href='#portfolio' class='btn-portfolio' style='display: inline-block; padding: 16px 32px; background: var(--primary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--primary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--primary-color)\"; this.style.borderColor=\"var(--primary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-briefcase' style='margin-right: 10px;'></i>Ver Portfólio</a><a href='#contact' class='btn-contact' style='display: inline-block; padding: 16px 32px; background: var(--secondary-color); color: white; text-decoration: none; border-radius: 8px; margin: 0 15px; font-size: 18px; font-weight: bold; transition: all 0.3s; border: 2px solid var(--secondary-color);' onmouseover='this.style.background=\"#871b6c\"; this.style.borderColor=\"#871b6c\"; this.style.transform=\"scale(1.05)\"; this.style.boxShadow=\"0 5px 15px rgba(0,0,0,0.2)\"' onmouseout='this.style.background=\"var(--secondary-color)\"; this.style.borderColor=\"var(--secondary-color)\"; this.style.transform=\"scale(1)\"; this.style.boxShadow=\"none\"'><i class='fa-solid fa-envelope' style='margin-right: 10px;'></i>Entrar em Contato</a></div>"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

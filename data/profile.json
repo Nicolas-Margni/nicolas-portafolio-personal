@@ -1,0 +1,55 @@
+{
+    "name": "Nicolas Margni",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Nicolas Margni",
+            "localized_name_stylized": " [[Nicolas {{Margni}}]]",
+            "status_message_available_for_freelance": "Available for hire!",
+            "roles": [
+                "IT Support / Help Desk",
+                "Junior System Administrator",
+                "Junior Cybersecurity Analyst",
+                "DevOps Assistant"
+            ],
+            "name_pronunciation_ipa": "/Nicolas Margni/",
+            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para contratar!",
+            "roles": [
+                "Soporte IT / Help Desk",
+                "Administrador Junior de Sistemas",
+                "Analista Junior de Ciberseguridad",
+                "Asistente DevOps"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Disponible pour embauche !",
+            "roles": [
+                "Support Informatique / Help Desk",
+                "Administrateur Système Junior",
+                "Analyste Cybersécurité Junior",
+                "Assistant DevOps"
+            ]
+        },
+            "name_pronunciation_ipa": "/Nikolaseu Margeuni/",
+            "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
+        },
+        "pt-br": {
+            "status_message_available_for_freelance": "¡Disponível para contratação!",
+            "roles": [
+                "Suporte de TI / Help Desk",
+                "Administrador Júnior de Sistemas",
+                "Analista Júnior de Cibersegurança",
+                "Assistente de DevOps"
+            ]
+        }
+    }

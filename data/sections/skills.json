@@ -1,0 +1,774 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Compétences",
+                "title_short_nav": "Compétences",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "pt-br": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explore",
+                "title_long": "Minhas {{Habilidades}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Task {{Automation}}",
+                            "text": "I automate repetitive tasks for smoother workflow!"
+                        },
+                        "es": {
+                            "title": "{{Automatización}} de tareas",
+                            "text": "¡Automatizo tareas repetitivas para mayor fluidez laboral!"
+                        },
+                        "fr": {
+                            "title": "{{Automatisation}} des tâches",
+                            "text": "J'automatise les tâches répétitives pour un flux de travail plus fluide !"
+                        },
+                        "pt-br": {
+                            "title": "{{Automação}} de tarefas",
+                            "text": "Automatizo tarefas repetitivas para um fluxo de trabalho mais suave!"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Database}} management",
+                            "text": "I can handle your data effectively and efficiently!"
+                        },
+                        "es": {
+                            "title": "Gestión de {{bases de datos}}",
+                            "text": "¡Puedo manejar sus datos de manera efectiva y eficiente!"
+                        },
+                        "fr": {
+                            "title": "Gestion de {{bases de données}}",
+                            "text": "Je peux gérer vos données de manière efficace et efficiente !"
+                        },
+                        "pt-br": {
+                            "title": "Gerenciamento de {{banco de dados}}",
+                            "text": "Posso lidar com seus dados de forma eficaz e eficiente!"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-plug-circle-check",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Technological {{Flexibility}}",
+                            "text": "Rapid adaptation to any type of system!"
+                        },
+                        "es": {
+                            "title": "Flexibilidad {{tecnológica}}",
+                            "text": "¡Rápida adaptación a cualquier tipo de sistema!"
+                        },
+                        "fr": {
+                            "title": "Flexibilité {{technologique}}",
+                            "text": "Adaptation rapide à tout type de système !"
+                        },
+                        "pt-br": {
+                            "title": "Flexibilidade {{tecnológica}}",
+                            "text": "Adaptação rápida a qualquer tipo de sistema!"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bug-slash",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "IT Problem {{Solving}}",
+                            "text": "I can solve technical problems and if I can't, I learn and try again!"
+                        },
+                        "es": {
+                            "title": "Resolución de problemas {{TI}}",
+                            "text": "¡Puedo solucionar problemas técnicos y si no puedo, aprendo y lo vuelvo a intentar!"
+                        },
+                        "fr": {
+                            "title": "Résolution de problèmes {{TI}}",
+                            "text": "Je peux résoudre des problèmes techniques et si je ne peux pas, j'apprends et je réessaie !"
+                        },
+                        "pt-br": {
+                            "title": "Resolução de problemas {{TI}}",
+                            "text": "Posso resolver problemas técnicos e se não conseguir, aprendo e tento novamente!"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-people-group",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Collaborative {{Work}}",
+                            "text": "Ability to naturally integrate into technical teams, contribute solutions, and accept that two heads usually debug better than one!"
+                        },
+                        "es": {
+                            "title": "Trabajo {{colaborativo}}",
+                            "text": "¡Capacidad para integrarme de forma natural a equipos técnicos, aportar soluciones y aceptar que dos cabezas suelen depurar mejor que una!"
+                        },
+                        "fr": {
+                            "title": "Travail {{collaboratif}}",
+                            "text": "Capacité à s'intégrer naturellement dans des équipes techniques, à apporter des solutions et à accepter que deux têtes déboguent généralement mieux qu'une !"
+                        },
+                        "pt-br": {
+                            "title": "Trabalho {{colaborativo}}",
+                            "text": "Capacidade de integrar-me naturalmente a equipes técnicas, contribuir com soluções e aceitar que duas cabeças geralmente depuram melhor que uma!"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Technical {{Skills}}"},
+                "es": {"title": "Habilidades {{técnicas}}"},
+                "fr": {"title": "Compétences {{techniques}}"},
+                "pt-br": {"title": "Habilidades {{técnicas}}"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-linux",
+                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Linux",
+                            "text": "Use of the terminal in Linux environments for technical tasks and cybersecurity practices.",
+                            "level": "<strong>Intermediate · Academic and practical use<strong>"
+                        },
+                        "es": {
+                            "title": "Linux",
+                            "text": "Uso de la terminal en entornos Linux para tareas técnicas y prácticas de ciberseguridad.",
+                            "level": "<strong>Intermedio · Uso académico y práctico<strong>"
+                        },
+                        "fr": {
+                            "title": "Linux",
+                            "text": "Utilisation du terminal dans des environnements Linux pour des tâches techniques et des pratiques de cybersécurité.",
+                            "level": "<strong>Intermédiaire · Usage académique et pratique<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Linux",
+                            "text": "Uso do terminal em ambientes Linux para tarefas técnicas e práticas de cibersegurança.",
+                            "level": "<strong>Intermediário · Uso acadêmico e prático<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": "#0295c2"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Automation",
+                            "text": "Process automation using no-code and low-code tools, integrating services and optimizing workflows.",
+                            "level": "<strong>Intermediate · (Make · Zapier · n8n)<strong>"
+                        },
+                        "es": {
+                            "title": "Automatización",
+                            "text": "Automatización de procesos mediante herramientas no-code y low-code, integrando servicios y optimizando flujos de trabajo.",
+                            "level": "<strong>Intermedio · (Make · Zapier · n8n)<strong>"
+                        },
+                        "fr": {
+                            "title": "Automatisation",
+                            "text": "Automatisation des processus à l'aide d'outils no-code et low-code, intégration des services et optimisation des flux de travail.",
+                            "level": "<strong>Intermédiaire · (Make · Zapier · n8n)<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Automação",
+                            "text": "Automação de processos usando ferramentas no-code e low-code, integrando serviços e otimizando fluxos de trabalho.",
+                            "level": "<strong>Intermediário · (Make · Zapier · n8n)<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": "#CC0000"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "JSON",
+                            "text": "Reading and handling data structures for system configuration and integration.",
+                            "level": "<strong>Basic · Reading and handling<strong>"
+                        },
+                        "es": {
+                            "title": "JSON",
+                            "text": "Lectura y manejo de estructuras de datos para configuración e integración de sistemas.",
+                            "level": "<strong>Básico · Lectura y manejo<strong>"
+                        },
+                        "fr": {
+                            "title": "JSON",
+                            "text": "Lecture et manipulation des structures de données pour la configuration et l'intégration des systèmes.",
+                            "level": "<strong>Basique · Lecture et manipulation<strong>"
+                        },
+                        "pt-br": {
+                            "title": "JSON",
+                            "text": "Leitura e manipulação de estruturas de dados para configuração e integração de sistemas.",
+                            "level": "<strong>Básico · Leitura e manipulação<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": "#4479A1"},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "text": "Creation and management of MySQL databases, SQL queries, table relationships and data handling.",
+                            "level": "<strong>Intermediate · Modeling and queries<strong>"
+                        },
+                        "es": {
+                            "title": "MySQL",
+                            "text": "Creación y gestión de bases de datos MySQL, consultas SQL, relaciones entre tablas y manejo de datos.",
+                            "level": "<strong>Intermedio · Modelado y consultas<strong>"
+                        },
+                        "fr": {
+                            "title": "MySQL",
+                            "text": "Création et gestion de bases de données MySQL, requêtes SQL, relations entre tables et manipulation des données.",
+                            "level": "<strong>Intermédiaire · Modélisation et requêtes<strong>"
+                        },
+                        "pt-br": {
+                            "title": "MySQL",
+                            "text": "Criação e gestão de bancos de dados MySQL, consultas SQL, relações entre tabelas e manipulação de dados.",
+                            "level": "<strong>Intermediário · Modelagem e consultas<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": "#2496ED"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "text": "Practical knowledge of Docker for containerization.",
+                            "level": "<strong>Basic · active learning<strong>"
+                        },
+                        "es": {
+                            "title": "Docker",
+                            "text": "Conocimientos prácticos de Docker para la contenedorización.",
+                            "level": "<strong>Básico · aprendizaje activo<strong>"
+                        },
+                        "fr": {
+                            "title": "Docker",
+                            "text": "Connaissances pratiques de Docker pour la conteneurisation.",
+                            "level": "<strong>Basique · apprentissage actif<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Docker",
+                            "text": "Conhecimentos práticos de Docker para conteinerização.",
+                            "level": "<strong>Básico · aprendizado ativo<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "", "fill": "#306998"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Use of Python for task automation, script creation and technical problem solving.",
+                            "level": "<strong>Intermediate · Automation and scripts<strong>"
+                        },
+                        "es": {
+                            "title": "Python",
+                            "text": "Uso de Python para automatización de tareas, creación de scripts y resolución de problemas técnicos.",
+                            "level": "<strong>Intermedio · Automatización y scripts<strong>"
+                        },
+                        "fr": {
+                            "title": "Python",
+                            "text": "Utilisation de Python pour l'automatisation des tâches, la création de scripts et la résolution de problèmes techniques.",
+                            "level": "<strong>Intermédiaire · Automatisation et scripts<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Python",
+                            "text": "Uso de Python para automação de tarefas, criação de scripts e resolução de problemas técnicos.",
+                            "level": "<strong>Intermediário · Automação e scripts<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {"bg": "", "fill": "#FFA500"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "GitHub",
+                            "text": "Use of the GitHub platform for repository hosting, remote version control and collaborative work.",
+                            "level": "<strong>Intermediate · Collaborative use<strong>"
+                        },
+                        "es": {
+                            "title": "GitHub",
+                            "text": "Uso de la plataforma GitHub para alojamiento de repositorios, control de versiones remoto y trabajo colaborativo.",
+                            "level": "<strong>Intermedio · Uso colaborativo<strong>"
+                        },
+                        "fr": {
+                            "title": "GitHub",
+                            "text": "Utilisation de la plateforme GitHub pour l'hébergement de dépôts, le contrôle de version à distance et le travail collaboratif.",
+                            "level": "<strong>Intermédiaire · Usage collaboratif<strong>"
+                        },
+                        "pt-br": {
+                            "title": "GitHub",
+                            "text": "Uso da plataforma GitHub para hospedagem de repositórios, controle de versão remoto e trabalho colaborativo.",
+                            "level": "<strong>Intermediário · Uso colaborativo<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "text": "Use of Git for version control, branch management and collaborative work on projects.",
+                            "level": "<strong>Intermediate · Daily use<strong>"
+                        },
+                        "es": {
+                            "title": "Git",
+                            "text": "Uso de Git para control de versiones, manejo de ramas y trabajo colaborativo en proyectos.",
+                            "level": "<strong>Intermedio · Uso cotidiano<strong>"
+                        },
+                        "fr": {
+                            "title": "Git",
+                            "text": "Utilisation de Git pour le contrôle de version, la gestion des branches et le travail collaboratif sur les projets.",
+                            "level": "<strong>Intermédiaire · Usage quotidien<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Git",
+                            "text": "Uso do Git para controle de versão, gerenciamento de branches e trabalho colaborativo em projetos.",
+                            "level": "<strong>Intermediário · Uso diário<strong>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Cybersecurity {{Skills}}"},
+                "es": {"title": "Habilidades {{ciberseguridad}}"},
+                "fr": {"title": "Compétences en {{cybersécurité}}"},
+                "pt-br": {"title": "Habilidades de {{cibersegurança}}"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bug-slash",
+                    "faIconColors": {"bg": "", "fill": "#2563EB"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "ANY.RUN",
+                            "text": "Interactive malware analysis using sandbox environments to observe behavior, network activity, processes, and indicators of compromise (IOCs) in real time.",
+                            "level": "<strong>Intermediate · Malware analysis & threat investigation<strong>"
+                         },
+                        "es": {
+                            "title": "ANY.RUN",
+                            "text": "Análisis interactivo de malware mediante entornos sandbox para observar comportamiento, actividad de red, procesos e indicadores de compromiso (IOCs) en tiempo real.",
+                            "level": "<strong>Intermedio · Análisis de malware y amenazas<strong>"
+                         },
+                        "fr": {
+                            "title": "ANY.RUN",
+                            "text": "Analyse interactive de malware à l’aide d’environnements sandbox pour observer le comportement, l’activité réseau, les processus et les indicateurs de compromission (IOC) en temps réel.",
+                            "level": "<strong>Intermédiaire · Analyse de malware et menaces<strong>"
+                         },
+                        "pt-br": {
+                               "title": "ANY.RUN",
+                               "text": "Análise interativa de malware usando ambientes sandbox para observar comportamento, atividade de rede, processos e indicadores de comprometimento (IOCs) em tempo real.",
+                               "level": "<strong>Intermediário · Análise de malware e ameaças<strong>"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bug",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Burp Suite",
+                            "text": "Interception and analysis of web traffic, identification of vulnerabilities in applications.",
+                            "level": "<strong>Intermediate · Daily use<strong>"
+                        },
+                        "es": {
+                            "title": "Burp Suite",
+                            "text": "Interceptación y análisis de tráfico web, identificación de vulnerabilidades en aplicaciones.",
+                            "level": "<strong>Intermedio · Uso diario<strong>"
+                        },
+                        "fr": {
+                            "title": "Burp Suite",
+                            "text": "Interception et analyse du trafic web, identification des vulnérabilités dans les applications.",
+                            "level": "<strong>Intermédiaire · Usage quotidien<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Burp Suite",
+                            "text": "Interceptação e análise de tráfego web, identificação de vulnerabilidades em aplicações.",
+                            "level": "<strong>Intermediário · Uso diário<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-terminal",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Metasploit",
+                            "text": "Execution of exploits, automated penetration tests and attack simulations.",
+                            "level": "<strong>Intermediate · Practical use<strong>"
+                        },
+                        "es": {
+                            "title": "Metasploit",
+                            "text": "Ejecución de exploits, pruebas de penetración automatizadas y simulaciones de ataque.",
+                            "level": "<strong>Intermedio · Uso práctico<strong>"
+                        },
+                        "fr": {
+                            "title": "Metasploit",
+                            "text": "Exécution d'exploits, tests de pénétration automatisés et simulations d'attaque.",
+                            "level": "<strong>Intermédiaire · Usage pratique<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Metasploit",
+                            "text": "Execução de exploits, testes de penetração automatizados e simulações de ataque.",
+                            "level": "<strong>Intermediário · Uso prático<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Wireshark",
+                            "text": "Network packet monitoring and analysis, anomaly detection and security testing.",
+                            "level": "<strong>Intermediate · Traffic analysis<strong>"
+                        },
+                        "es": {
+                            "title": "Wireshark",
+                            "text": "Monitoreo y análisis de paquetes de red, detección de anomalías y pruebas de seguridad.",
+                            "level": "<strong>Intermedio · Análisis de tráfico<strong>"
+                        },
+                        "fr": {
+                            "title": "Wireshark",
+                            "text": "Surveillance et analyse des paquets réseau, détection d'anomalies et tests de sécurité.",
+                            "level": "<strong>Intermédiaire · Analyse du trafic<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Wireshark",
+                            "text": "Monitoramento e análise de pacotes de rede, detecção de anomalias e testes de segurança.",
+                            "level": "<strong>Intermediário · Análise de tráfego<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "VMware / VirtualBox",
+                            "text": "Creation of isolated virtual environments for testing, laboratories and attack simulations.",
+                            "level": "<strong>Advanced · Lab configuration<strong>"
+                        },
+                        "es": {
+                            "title": "VMware / VirtualBox",
+                            "text": "Creación de entornos virtuales aislados para pruebas, laboratorios y simulaciones de ataques.",
+                            "level": "<strong>Avanzado · Configuración de laboratorios<strong>"
+                        },
+                        "fr": {
+                            "title": "VMware / VirtualBox",
+                            "text": "Création d'environnements virtuels isolés pour les tests, laboratoires et simulations d'attaque.",
+                            "level": "<strong>Avancé · Configuration de laboratoires<strong>"
+                        },
+                        "pt-br": {
+                            "title": "VMware / VirtualBox",
+                            "text": "Criação de ambientes virtuais isolados para testes, laboratórios e simulações de ataque.",
+                            "level": "<strong>Avançado · Configuração de laboratórios<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-eye",
+                    "faIconColors": {"bg": "", "fill": "#00aae4"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Nmap",
+                            "text": "Network mapping, host discovery and security audits through active scanning.",
+                            "level": "<strong>Intermediate · Network scanning<strong>"
+                        },
+                        "es": {
+                            "title": "Nmap",
+                            "text": "Mapeo de redes, descubrimiento de hosts y auditorías de seguridad mediante escaneo activo.",
+                            "level": "<strong>Intermedio · Escaneo de redes<strong>"
+                        },
+                        "fr": {
+                            "title": "Nmap",
+                            "text": "Cartographie réseau, découverte d'hôtes et audits de sécurité par balayage actif.",
+                            "level": "<strong>Intermédiaire · Balayage réseau<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Nmap",
+                            "text": "Mapeamento de rede, descoberta de hosts e auditorias de segurança por meio de varredura ativa.",
+                            "level": "<strong>Intermediário · Varredura de rede<strong>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Languages"},
+                "es": {"title": "Idiomas"},
+                "fr": {"title": "Langues"},
+                "pt-br": {"title": "Idiomas"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/es-ar.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Spanish",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "<strong>{{Native}} - C2<strong>"
+                        },
+                        "es": {
+                            "title": "Español",
+                            "text": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
+                            "level": "<strong>{{Nativo}} - C2<strong>"
+                        },
+                        "fr": {
+                            "title": "Espagnol",
+                            "text": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
+                            "level": "<strong>{{Natif}} - C2<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Espanhol",
+                            "text": "Falante nativo com excelentes habilidades de comunicação e escrita.",
+                            "level": "<strong>{{Nativo}} - C2<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Fluent in spoken and written English; confident in informal communication.",
+                            "level": "<strong>{{Advanced}} - B2<strong>"
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "text": "Fluido en inglés hablado y escrito; seguro en la comunicación informal.",
+                            "level": "<strong>{{Avanzado}} - B2<strong>"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "text": "Courant en anglais parlé et écrit ; confiant dans la communication informelle.",
+                            "level": "<strong>{{Avancé}} - B2<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Inglês",
+                            "text": "Fluente em inglês falado e escrito; confiante na comunicação informal.",
+                            "level": "<strong>{{Avançado}} - B2<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/flags/pt-br.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Portuguese",
+                            "text": "Elementary proficiency in the Portuguese language; I can understand written texts.",
+                            "level": "<strong>{{Elementary}} - A2<strong>"
+                        },
+                        "es": {
+                            "title": "Portugués",
+                            "text": "Competencia elemental en el idioma portugués; puedo entender textos escritos.",
+                            "level": "<strong>{{Elemental}} - A2<strong>"
+                        },
+                        "fr": {
+                            "title": "Portugais",
+                            "text": "Compétence élémentaire en langue portugaise ; je peux comprendre des textes écrits.",
+                            "level": "<strong>{{Élémentaire}} - A2<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Português",
+                            "text": "Proficiência elementar em língua portuguesa; posso entender textos escritos.",
+                            "level": "<strong>{{Elementar}} - A2<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/flags/fr.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "French",
+                            "text": "Basic understanding of French; learning and improving.",
+                            "level": "<strong>{{Basic}} - A1<strong>"
+                        },
+                        "es": {
+                            "title": "Francés",
+                            "text": "Comprensión básica del francés; aprendiendo y mejorando.",
+                            "level": "<strong>{{Básico}} - A1<strong>"
+                        },
+                        "fr": {
+                            "title": "Français",
+                            "text": "Compréhension de base du français ; en apprentissage et amélioration.",
+                            "level": "<strong>{{Basique}} - A1<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Francês",
+                            "text": "Compreensão básica do francês; aprendendo e melhorando.",
+                            "level": "<strong>{{Básico}} - A1<strong>"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
