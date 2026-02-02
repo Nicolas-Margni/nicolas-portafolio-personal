@@ -5,7 +5,7 @@ This repository contains my **personal portfolio website**, developed to present
 The site is deployed using **GitHub Pages** and is continuously evolving as I progress in my education and gain more experience.
 
 🔗 **Website:**  
-https://github.com/Nicolas-Margni/portafolio-personal
+https://nicolas-margni.github.io/nicolas-portafolio-personal/
 
 ---
 
