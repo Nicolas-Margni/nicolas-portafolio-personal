@@ -719,52 +719,22 @@
                         "en": {
                             "title": "Portuguese",
                             "text": "Elementary proficiency in the Portuguese language; I can understand written texts.",
-                            "level": "<strong>{{Elementary}} - A2<strong>"
+                            "level": "<strong>{{Elementary}} - A1<strong>"
                         },
                         "es": {
                             "title": "Portugués",
                             "text": "Competencia elemental en el idioma portugués; puedo entender textos escritos.",
-                            "level": "<strong>{{Elemental}} - A2<strong>"
+                            "level": "<strong>{{Elemental}} - A1<strong>"
                         },
                         "fr": {
                             "title": "Portugais",
                             "text": "Compétence élémentaire en langue portugaise ; je peux comprendre des textes écrits.",
-                            "level": "<strong>{{Élémentaire}} - A2<strong>"
+                            "level": "<strong>{{Élémentaire}} - A1<strong>"
                         },
                         "pt-br": {
                             "title": "Português",
                             "text": "Proficiência elementar em língua portuguesa; posso entender textos escritos.",
-                            "level": "<strong>{{Elementar}} - A2<strong>"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "images/flags/fr.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "French",
-                            "text": "Basic understanding of French; learning and improving.",
-                            "level": "<strong>{{Basic}} - A1<strong>"
-                        },
-                        "es": {
-                            "title": "Francés",
-                            "text": "Comprensión básica del francés; aprendiendo y mejorando.",
-                            "level": "<strong>{{Básico}} - A1<strong>"
-                        },
-                        "fr": {
-                            "title": "Français",
-                            "text": "Compréhension de base du français ; en apprentissage et amélioration.",
-                            "level": "<strong>{{Basique}} - A1<strong>"
-                        },
-                        "pt-br": {
-                            "title": "Francês",
-                            "text": "Compreensão básica do francês; aprendendo e melhorando.",
-                            "level": "<strong>{{Básico}} - A1<strong>"
+                            "level": "<strong>{{Elementar}} - A1<strong>"
                         }
                     }
                 }
