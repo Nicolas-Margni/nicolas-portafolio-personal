@@ -105,7 +105,49 @@
                             "tags": ["Portfólio", "Site Pessoal", "Desenvolvimento Web"]
                         }
                     }
-                }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_cybersegurity",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/Nicolas-Margni/passwordseguritychecker_psc", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-portafolio-6.png",
+                            "images/pictures/screenshot-portafolio-7.png",
+                            "images/pictures/screenshot-portafolio-8.png",
+                            "images/pictures/screenshot-portafolio-9.png",
+                            "images/pictures/screenshot-portafolio-10.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Password Security Checker",
+                            "text": "App to simulate a real brute-force attack with real actions such as dictionaries or the custom CUPP tool.",
+                            "tags": ["Passwords", "Cybersecurity", "Brute Force"]
+                        },
+                        "es": {
+                            "title": "Verificador de seguridad de contraseñas",
+                            "text": "App para simular un ataque real de fuerza bruta con acciones reales como diccionarios o la herramienta CUPP personalizada.",
+                            "tags": ["Contraseñas", "Ciberseguridad", "Fuerza bruta"]
+                        },
+                        "fr": {
+                            "title": "Vérificateur de sécurité des mots de passe",
+                            "text": "Application pour simuler une véritable attaque par force brute avec des actions réelles comme des dictionnaires ou l'outil CUPP personnalisé.",
+                            "tags": ["Mots de passe", "Cybersécurité", "Force brute"]
+                        },
+                        "pt-br": {
+                            "title": "Verificador de segurança de senhas",
+                            "text": "Aplicativo para simular um ataque real de força bruta com ações reais como dicionários ou a ferramenta CUPP personalizada.",
+                            "tags": ["Senhas", "Cibersegurança", "Força bruta"]
+                        }
+                    }
+                }    
             ]
         }
     ]

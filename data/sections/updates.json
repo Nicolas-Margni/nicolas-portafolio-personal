@@ -46,16 +46,16 @@
                     "locales": {
                         "en": {
                             "title": "01",
-                            "text": "Apps Published"
+                            "text": "Cybersecurity Projects"
                         },
                         "es": {
                             "text": "Proyectos de ciberseguidad"
                         },
                         "fr": {
-                            "text": "Applications Publiées"
+                            "text": "Projets de cybersécurité"
                         },
                         "pt-br": {
-                            "text": "Aplicativos Publicados"
+                            "text": "Projetos de cibersegurança"
                         }
                     }
                 },
@@ -67,16 +67,16 @@
                     "locales": {
                         "en": {
                             "title": "10+",
-                            "text": "Stars on GitHub"
+                            "text": "Completed Labs"
                         },
                         "es": {
                             "text": "Labs completados"
                         },
                         "fr": {
-                            "text": "Étoiles sur GitHub"
+                            "text": "Laboratoires complétés"
                         },
                         "pt-br": {
-                            "text": "Estrelas no GitHub"
+                            "text": "Laboratórios concluídos"
                         }
                     }
                 },
@@ -88,16 +88,16 @@
                     "locales": {
                         "en": {
                             "title": "4",
-                            "text": "Countries visited"
+                            "text": "Mastering Languages"
                         },
                         "es": {
-                            "text": "aprendiendo idiomas"
+                            "text": "Dominando idiomas"
                         },
                         "fr": {
-                            "text": "Pays Visités"
+                            "text": "Maîtrise des langues"
                         },
                         "pt-br": {
-                            "text": "Países Visitados"
+                            "text": "Dominando idiomas"
                         }
                     }
                 },
@@ -109,16 +109,16 @@
                     "locales": {
                         "en": {
                             "title": "03",
-                            "text": "Open-source projects"
+                            "text": "Automation Projects"
                         },
                         "es": {
                             "text": "Proyectos de automatizacion"
                         },
                         "fr": {
-                            "text": "Projets Open-source"
+                            "text": "Projets d’automatisation"
                         },
                         "pt-br": {
-                            "text": "Projetos Open-source"
+                            "text": "Projetos de automação"
                         }
                     }
                 },
@@ -130,16 +130,16 @@
                     "locales": {
                         "en": {
                             "title": "20,000+",
-                            "text": "Coffees consumed"
+                            "text": "Monster Energy Consumed"
                         },
                         "es": {
                             "text": "Monsters Consumidas"
                         },
                         "fr": {
-                            "text": "Cafés Consommés"
+                            "text": "Monsters consommées"
                         },
                         "pt-br": {
-                            "text": "Cafés Consumidos"
+                            "text": "Monsters consumidas"
                         }
                     }
                 },
@@ -151,16 +151,16 @@
                     "locales": {
                         "en": {
                             "title": "100,000+",
-                            "text": "Lines of code"
+                            "text": "Sleepless Nights"
                         },
                         "es": {
-                            "text": "Sonrisas sacadas"
+                            "text": "Noches sin dormir"
                         },
                         "fr": {
-                            "text": "Lignes de code"
+                            "text": "Nuits sans sommeil"
                         },
                         "pt-br": {
-                            "text": "Linhas de código"
+                            "text": "Noites sem dormir"
                         }
                     }
                 },
@@ -208,7 +208,7 @@
             "items": [
                 {
                     "id": 1,
-                    "date": {"year": 2025, "month": 6},
+                    "date": {"year": 2025, "month": 12},
                     "preview": {
                         "links": [
                             {"href": "#portfolio", "faIcon": "fa-solid fa-eye"}
@@ -250,7 +250,7 @@
                 },
                 {
                     "id": 2,
-                    "date": {"year": 2025, "month": 5},
+                    "date": {"year": 2026, "month": 1},
                     "preview": {
                         "links": [],
                         "screenshots": [],
@@ -315,8 +315,124 @@
                             ]
                         }
                     }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2026, "month": 4},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Password Checker}} like an attacker would do 🔐",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "I'm about to release a project that goes a little beyond the typical. It's not just a password checker that tells you if it's \"secure\" or not... I wanted to take it to something more real. It is characterized by a simple but key premise: you cannot defend what you don't understand. That's why I decided to bring tools and approaches from the red team world to the blue team, analyzing security from the attacker's perspective but with a clear goal: strengthening defense. Instead of staying on a superficial evaluation, the project seeks to show how a password could be attacked in real scenarios, understanding the logic and patterns behind an intrusion attempt. Because in the end... the best defense is knowing exactly how someone would try to break it. What makes it special?:",
+                            "list": [
+                                "Integration of real dictionaries used in cyber attacks (RockYou, HIBP, Weakpass, CrackStation, SecLists)",
+                                "Password generation based on personal data using CUPP (targeted attacks)",
+                                "Realistic approach based on methodologies used in cybercrime",
+                                "Estimated cracking time calculation",
+                                "And many more things..."
+                            ]
+                        },
+                        "es": {
+                            "title": "{{Verificando contraseñas…}} como lo haría un atacante 🔐",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Estoy por subir un proyecto que va un poco más allá de lo típico. No es solo un verificador de contraseñas que te dice si es \"segura\" o no… quise llevarlo a algo más real. lo caracteriza una premisa simple pero clave: no podés defender lo que no entendés. Por eso decidí traer herramientas y enfoques del mundo del red team al blue team, analizando la seguridad desde la perspectiva del atacante pero con un objetivo claro: fortalecer la defensa. En lugar de quedarme en una evaluación superficial, el proyecto busca mostrar cómo una contraseña podría ser atacada en escenarios reales, entendiendo la lógica y los patrones detrás de un intento de intrusión. Porque al final… la mejor defensa es saber exactamente cómo alguien intentaría romperla. ¿Que cosas tiene de especial?:",
+                            "list": [
+                                "Integración de diccionarios reales utilizados en ciberataques (RockYou, HIBP, Weakpass, CrackStation, SecLists)",
+                                "Generación de contraseñas basada en datos personales mediante CUPP (ataques dirigidos)",
+                                "Enfoque realista basado en metodologías utilizadas en cibercrimen",
+                                "Cálculo del tiempo estimado de crackeo",
+                                "Entre muchas mas cosas..."
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Vérification de mots de passe}} comme le ferait un attaquant 🔐",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Je m'apprête à lancer un projet qui va un peu plus loin que d'habitude. Ce n'est pas qu'un simple vérificateur de mots de passe qui vous dit s'il est \"sécurisé\" ou non... je voulais aller vers quelque chose de plus réel. Il est caractérisé par une prémisse simple mais clé : on ne peut pas défendre ce qu'on ne comprend pas. C'est pourquoi j'ai décidé d'apporter des outils et des approches du monde red team à la blue team, en analysant la sécurité du point de vue de l'attaquant mais avec un objectif clair : renforcer la défense. Au lieu de rester sur une évaluation superficielle, le projet cherche à montrer comment un mot de passe pourrait être attaqué dans des scénarios réels, en comprenant la logique et les schémas derrière une tentative d'intrusion. Parce qu'au final... la meilleure défense est de savoir exactement comment quelqu'un essaierait de le casser. Qu'est-ce qui le rend spécial ? :",
+                            "list": [
+                                "Intégration de dictionnaires réels utilisés dans les cyberattaques (RockYou, HIBP, Weakpass, CrackStation, SecLists)",
+                                "Génération de mots de passe basée sur des données personnelles avec CUPP (attaques ciblées)",
+                                "Approche réaliste basée sur des méthodologies utilisées dans la cybercriminalité",
+                                "Calcul du temps de craquage estimé",
+                                "Et bien d'autres choses..."
+                            ]
+                        },
+                        "pt-br": {
+                            "title": "{{Verificando senhas}} como um atacante faria 🔐",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Estou prestes a lançar um projeto que vai um pouco além do típico. Não é apenas um verificador de senhas que diz se é \"segura\" ou não... eu queria levar para algo mais real. É caracterizado por uma premissa simples, mas fundamental: você não pode defender o que não entende. Foi por isso que decidi trazer ferramentas e abordagens do mundo red team para o blue team, analisando a segurança da perspectiva do atacante, mas com um objetivo claro: fortalecer a defesa. Em vez de ficar em uma avaliação superficial, o projeto busca mostrar como uma senha poderia ser atacada em cenários reais, entendendo a lógica e os padrões por trás de uma tentativa de intrusão. Porque no final... a melhor defesa é saber exatamente como alguém tentaria quebrá-la. O que o torna especial?:",
+                            "list": [
+                                "Integração de dicionários reais usados em ciberataques (RockYou, HIBP, Weakpass, CrackStation, SecLists)",
+                                "Geração de senhas baseada em dados pessoais usando CUPP (ataques direcionados)",
+                                "Abordagem realista baseada em metodologias usadas no cibercrime",
+                                "Cálculo do tempo estimado de crackeamento",
+                                "E muito mais..."
+                            ]
+                        }
+                    }
+                },
+                            {
+                    "id": 4,
+                    "date": {"year": 2026, "month": 4},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "I want to be a {{Polyglot...}} 🗣️",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "I'm seriously thinking about starting to learn more languages. I'd love to be able to speak four or five, but I'm in a pretty big dilemma. I don't know if I should focus on learning languages just because I like them, like Italian or French, or if it's better to prioritize something more useful for the future job market, like Chinese or Russian. It's hard to decide if I should follow what I enjoy or what could open more professional doors. Although, being honest, right now I feel like my priority should be improving my English to a more competitive level because... my English is like old code... it kind of works... just don't touch it.",
+                            "list": []
+                        },
+                        "es": {
+                            "title": "Quiero ser {{Poliglota...}} 🗣️",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Estoy pensando seriamente en empezar a estudiar más idiomas. Me encantaría poder llegar a hablar cuatro o cinco, pero estoy en un dilema bastante grande. No sé si enfocarme en aprender idiomas por gusto, como el italiano o el francés, o si conviene más priorizar algo que tenga mayor utilidad a futuro en el mercado, como el chino o el ruso. Me cuesta decidir si lo mejor es guiarme por lo que me apasiona o por lo que puede abrirme más puertas profesionales. Aunque, siendo sincero, en este momento siento que mi prioridad debería ser mejorar mi inglés hasta llevarlo a un nivel realmente competitivo porque...mi inglés es como un código viejo...este medio...mírame no me toques.",
+                            "list": []
+                        },
+                        "fr": {
+                            "title": "Je veux être {{Polyglotte...}} 🗣️",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Je pense sérieusement à commencer à apprendre plus de langues. J’aimerais pouvoir en parler quatre ou cinq, mais je suis dans un gros dilemme. Je ne sais pas si je dois apprendre des langues par plaisir, comme l’italien ou le français, ou si je devrais plutôt choisir quelque chose de plus utile pour le marché du travail futur, comme le chinois ou le russe. J’ai du mal à décider si je dois suivre ce que j’aime ou ce qui peut m’ouvrir plus de portes professionnellement. Même si, honnêtement, pour l’instant je devrais surtout améliorer mon anglais jusqu’à un niveau vraiment compétitif parce que… mon anglais est comme un vieux code… ça marche à moitié… mais vaut mieux pas y toucher.",
+                            "list": []
+                        },
+                        "pt-br": {
+                            "title": "Quero ser {{Poliglota...}} 🗣️",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Estou pensando seriamente em começar a estudar mais idiomas. Eu adoraria conseguir falar quatro ou cinco, mas estou em um dilema grande. Não sei se devo aprender idiomas por gosto, como italiano ou francês, ou se é melhor focar em algo mais útil para o mercado de trabalho no futuro, como chinês ou russo. É difícil decidir se sigo o que eu gosto ou o que pode me abrir mais portas profissionais. Mas sendo sincero, agora minha prioridade deveria ser melhorar meu inglês até um nível mais competitivo porque… meu inglês é tipo código velho… meio funciona… melhor nem mexer.",
+                            "list": []
+                        }
+}
+                            
+                        
+                    
                 }
             ]
         }
     ]
 }
+
