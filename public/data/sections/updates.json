@@ -426,10 +426,83 @@
                             "text": "Estou pensando seriamente em começar a estudar mais idiomas. Eu adoraria conseguir falar quatro ou cinco, mas estou em um dilema grande. Não sei se devo aprender idiomas por gosto, como italiano ou francês, ou se é melhor focar em algo mais útil para o mercado de trabalho no futuro, como chinês ou russo. É difícil decidir se sigo o que eu gosto ou o que pode me abrir mais portas profissionais. Mas sendo sincero, agora minha prioridade deveria ser melhorar meu inglês até um nível mais competitivo porque… meu inglês é tipo código velho… meio funciona… melhor nem mexer.",
                             "list": []
                         }
-}
-                            
-                        
-                    
+                    }      
+                },
+                            {
+                    "id": 5,
+                    "date": {"year": 2026, "month": 5},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{DeepRaccoon}} is up and running! 🦝",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "After a couple of weeks of intense development, I finally finished this project and uploaded it to GitHub. It's a defensive tool that scans your Windows device and shows you everything AI-related running on it. The interesting part is that it doesn't just list what it finds — it assigns you a risk level based on how much access the AI has within your system. The premise is simple: the more doors you have open, the more exposed you are. To calculate that risk, it analyzes these 7 possible causes:",
+                            "list": [
+                                "Active AI processes running",
+                                "Exposed API Keys in environment variables and config files",
+                                "AI/LLM packages installed on the system",
+                                "Active TCP connections and DNS cache towards LLM APIs",
+                                "AI tool configuration folders",
+                                "Browser history and extensions related to AI",
+                                "AI desktop applications installed"
+                            ]
+                        },
+                        "es": {
+                            "title": "{{DeepRaccoon}} ya está funcionando! 🦝",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Después de un par de semanas de desarrollo intenso, por fin pude terminar este proyecto y subirlo a GitHub. Se trata de una herramienta de uso defensivo que escanea tu dispositivo Windows y te muestra todo lo relacionado con IA que tengas corriendo. Lo interesante es que no solo lista lo que encuentra, sino que te asigna un nivel de riesgo basado en qué tanto acceso tiene la IA dentro de tu sistema. La premisa es simple: cuantas más puertas abiertas tengas, más expuesto estás. Para calcular ese riesgo, analiza estas 7 causas posibles:",
+                            "list": [
+                                "Procesos activos de IA en ejecución",
+                                "API Keys expuestas en variables de entorno y archivos de configuración",
+                                "Paquetes de IA/LLM instalados en el sistema",
+                                "Conexiones TCP activas y caché DNS hacia APIs de LLMs",
+                                "Carpetas de configuración de herramientas de IA",
+                                "Historial de navegación y extensiones relacionadas con IA",
+                                "Aplicaciones de escritorio de IA instaladas"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{DeepRaccoon}} est opérationnel! 🦝",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Après deux semaines de développement intense, j'ai enfin pu terminer ce projet et le mettre sur GitHub. C'est un outil défensif qui scanne ton appareil Windows et te montre tout ce qui est lié à l'IA qui tourne dessus. Ce qui est intéressant, c'est qu'il ne se contente pas de lister ce qu'il trouve — il t'attribue un niveau de risque basé sur l'accès que l'IA a dans ton système. Le principe est simple : plus t'as de portes ouvertes, plus t'es exposé. Pour calculer ce risque, il analyse ces 7 causes possibles :",
+                            "list": [
+                                "Processus IA actifs en cours d'exécution",
+                                "Clés API exposées dans les variables d'environnement et fichiers de config",
+                                "Paquets IA/LLM installés sur le système",
+                                "Connexions TCP actives et cache DNS vers des APIs de LLMs",
+                                "Dossiers de configuration d'outils IA",
+                                "Historique de navigation et extensions liées à l'IA",
+                                "Applications de bureau IA installées"
+                            ]
+                        },
+                        "pt-br": {
+                            "title": "{{DeepRaccoon}} já está funcionando! 🦝",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Depois de duas semanas de desenvolvimento intenso, finalmente consegui terminar esse projeto e subir ele no GitHub. É uma ferramenta defensiva que escaneia teu dispositivo Windows e te mostra tudo relacionado a IA que está rodando nele. O interessante é que não só lista o que encontra — ela te dá um nível de risco baseado em quanto acesso a IA tem dentro do teu sistema. A premissa é simples: quanto mais portas abertas você tiver, mais exposto está. Pra calcular esse risco, ela analisa essas 7 causas possíveis:",
+                            "list": [
+                                "Processos ativos de IA em execução",
+                                "API Keys expostas em variáveis de ambiente e arquivos de configuração",
+                                "Pacotes de IA/LLM instalados no sistema",
+                                "Conexões TCP ativas e cache DNS para APIs de LLMs",
+                                "Pastas de configuração de ferramentas de IA",
+                                "Histórico de navegação e extensões relacionadas a IA",
+                                "Aplicativos de IA instalados na área de trabalho"
+                            ]
+                        }
+                    }
                 }
             ]
         }
