@@ -67,7 +67,7 @@
                 {
                     "id": 1,
                     "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -147,7 +147,49 @@
                             "tags": ["Senhas", "Cibersegurança", "Força bruta"]
                         }
                     }
-                }    
+                },
+                                {
+                    "id": 3,
+                    "categoryId": "category_tools",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/Nicolas-Margni/deepraccoon", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-portafolio-11.png",
+                            "images/pictures/screenshot-portafolio-12.png",
+                            "images/pictures/screenshot-portafolio-13.png",
+                            "images/pictures/screenshot-portafolio-14.png",
+                            "images/pictures/screenshot-portafolio-15.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DeepRaccoon - AI Investigator",
+                            "text": "Defensive cybersecurity tool designed to detect unauthorized use of artificial intelligence within a Windows system.",
+                            "tags": ["Audit", "Detection", "Monitoring", "Artificial Intelligence"]
+                        },
+                        "es": {
+                            "title": "DeepRaccon - Investigador de IA",
+                            "text": "herramienta de ciberseguridad defensiva que desarrollé para detectar el uso no autorizado de inteligencia artificial dentro de un sistema Windows.",
+                            "tags": ["Auditoría", "Detección", "Monitoreo", "Inteligencia Artificial"]
+                        },
+                        "fr": {
+                            "title": "DeepRaccoon - Investigateur IA",
+                            "text": "Outil de cybersécurité défensive conçu pour détecter l'utilisation non autorisée de l'intelligence artificielle sur un système Windows.",
+                            "tags": ["Audit", "Détection", "Surveillance", "Intelligence Artificielle"]
+                        },
+                        "pt-br": {
+                            "title": "DeepRaccoon - Investigador de IA",
+                            "text": "Ferramenta de cibersegurança defensiva projetada para detectar o uso não autorizado de inteligência artificial em um sistema Windows.",
+                            "tags": ["Auditoria", "Detecção", "Monitoramento", "Inteligência Artificial"]
+                        }
+                    }
+                }        
             ]
         }
     ]
