@@ -2,7 +2,7 @@ import "./ArticleTimeline.scss"
 import React, {useEffect, useState} from 'react'
 import Article from "/src/components/articles/base/Article.jsx"
 import AvatarView from "/src/components/generic/AvatarView.jsx"
-import {ArticleItemInfoForTimelines, ArticleItemInfoForTimelinesHeader, ArticleItemInfoForTimelinesTagsFooter, ArticleItemInfoForTimelinesBody} from "/src/components/articles/partials/ArticleItemInfoForTimelines.jsx"
+import {ArticleItemInfoForTimelines, ArticleItemInfoForTimelinesHeader, ArticleItemInfoForTimelinesTagsFooter, ArticleItemInfoForTimelinesBody, ArticleItemInfoForTimelinesPreviewFooter} from "/src/components/articles/partials/ArticleItemInfoForTimelines.jsx"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -68,6 +68,8 @@ function ArticleTimelineItem({ itemWrapper }) {
                 <ArticleItemInfoForTimelinesBody itemWrapper={itemWrapper}/>
 
                 <ArticleItemInfoForTimelinesTagsFooter itemWrapper={itemWrapper}/>
+
+                <ArticleItemInfoForTimelinesPreviewFooter itemWrapper={itemWrapper}/>
             </ArticleItemInfoForTimelines>
         </li>
     )
