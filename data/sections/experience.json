@@ -50,8 +50,8 @@
                         ],
                         "screenshots": []
                     },
-                    "dateStart": {"year": 2024, "month": 6},
-                    "dateEnd": {"now": true},
+                    "dateStart": {"year": 2026, "month": 3},
+                    "dateEnd": {"year": 2026, "month": 5},
                     "locales": {
                         "en": {
                             "title": "{{Cybersecurity}} & Backend Developer",
