@@ -811,7 +811,7 @@
                 {
                     "id": 10,
                     "img": "",
-                    "faIcon": "fa-solid fa-router",
+                    "faIcon": "fa-solid fa-wifi",
                     "faIconColors": {"bg": "", "fill": "#8B5CF6"},
                     "date": null,
                     "percentage": null,
