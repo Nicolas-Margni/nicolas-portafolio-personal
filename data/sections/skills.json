@@ -426,6 +426,96 @@
                             "level": "<strong>Intermediário · Uso diário<strong>"
                         }
                     }
+                },
+                {
+                    "id": 11,
+                    "img": "",
+                    "faIcon": "fa-solid fa-plug",
+                    "faIconColors": {"bg": "", "fill": "#6366F1"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "APIs",
+                            "text": "Design and consumption of REST APIs to integrate services and connect frontend and backend.",
+                            "level": "<strong>Intermediate · Integration and consumption<strong>"
+                        },
+                        "es": {
+                            "title": "APIs",
+                            "text": "Diseño y consumo de APIs REST para integrar servicios y conectar frontend con backend.",
+                            "level": "<strong>Intermedio · Integración y consumo<strong>"
+                        },
+                        "fr": {
+                            "title": "APIs",
+                            "text": "Conception et consommation d'API REST pour intégrer des services et connecter le frontend au backend.",
+                            "level": "<strong>Intermédiaire · Intégration et consommation<strong>"
+                        },
+                        "pt-br": {
+                            "title": "APIs",
+                            "text": "Design e consumo de APIs REST para integrar serviços e conectar frontend e backend.",
+                            "level": "<strong>Intermediário · Integração e consumo<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": "#2D3748"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Backend Development",
+                            "text": "Development of server-side logic, business rules and data handling for web and mobile applications.",
+                            "level": "<strong>Intermediate · Server-side development<strong>"
+                        },
+                        "es": {
+                            "title": "Desarrollo Backend",
+                            "text": "Desarrollo de lógica del lado del servidor, reglas de negocio y manejo de datos para aplicaciones web y móviles.",
+                            "level": "<strong>Intermedio · Desarrollo del lado del servidor<strong>"
+                        },
+                        "fr": {
+                            "title": "Développement Backend",
+                            "text": "Développement de la logique côté serveur, des règles métier et de la gestion des données pour des applications web et mobiles.",
+                            "level": "<strong>Intermédiaire · Développement côté serveur<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Desenvolvimento Backend",
+                            "text": "Desenvolvimento de lógica do lado do servidor, regras de negócio e manipulação de dados para aplicações web e mobile.",
+                            "level": "<strong>Intermediário · Desenvolvimento do lado do servidor<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {"bg": "", "fill": "#3ECF8E"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Supabase",
+                            "text": "Use of Supabase as backend-as-a-service, including database management, authentication and Row Level Security (RLS) policies.",
+                            "level": "<strong>Intermediate · Backend & RLS security<strong>"
+                        },
+                        "es": {
+                            "title": "Supabase",
+                            "text": "Uso de Supabase como backend-as-a-service, incluyendo gestión de base de datos, autenticación y políticas de Row Level Security (RLS).",
+                            "level": "<strong>Intermedio · Backend y seguridad RLS<strong>"
+                        },
+                        "fr": {
+                            "title": "Supabase",
+                            "text": "Utilisation de Supabase comme backend-as-a-service, incluant la gestion de base de données, l'authentification et les politiques Row Level Security (RLS).",
+                            "level": "<strong>Intermédiaire · Backend et sécurité RLS<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Supabase",
+                            "text": "Uso do Supabase como backend-as-a-service, incluindo gerenciamento de banco de dados, autenticação e políticas de Row Level Security (RLS).",
+                            "level": "<strong>Intermediário · Backend e segurança RLS<strong>"
+                        }
+                    }
                 }
             ]
         },
@@ -625,6 +715,126 @@
                             "title": "Nmap",
                             "text": "Mapeamento de rede, descoberta de hosts e auditorias de segurança por meio de varredura ativa.",
                             "level": "<strong>Intermediário · Varredura de rede<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-magnifying-glass-chart",
+                    "faIconColors": {"bg": "", "fill": "#0090C8", "fillLight": "#00577A"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Wazuh",
+                            "text": "Deployment and use of Wazuh (SIEM) to centralize and correlate logs, monitor connections between virtual machines, and detect anomalous activity during Red Team simulations.",
+                            "level": "<strong>Intermediate · SIEM & log monitoring<strong>"
+                        },
+                        "es": {
+                            "title": "Wazuh",
+                            "text": "Implementación y uso de Wazuh (SIEM) para centralizar y correlacionar logs, monitorear conexiones entre máquinas virtuales y detectar actividades anómalas durante simulaciones de Red Team.",
+                            "level": "<strong>Intermedio · SIEM y monitoreo de logs<strong>"
+                        },
+                        "fr": {
+                            "title": "Wazuh",
+                            "text": "Déploiement et utilisation de Wazuh (SIEM) pour centraliser et corréler les logs, surveiller les connexions entre machines virtuelles et détecter les activités anormales lors des simulations de Red Team.",
+                            "level": "<strong>Intermédiaire · SIEM et surveillance des logs<strong>"
+                        },
+                        "pt-br": {
+                            "title": "Wazuh",
+                            "text": "Implementação e uso do Wazuh (SIEM) para centralizar e correlacionar logs, monitorar conexões entre máquinas virtuais e detectar atividades anômalas durante simulações de Red Team.",
+                            "level": "<strong>Intermediário · SIEM e monitoramento de logs<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-ethernet",
+                    "faIconColors": {"bg": "", "fill": "#0EA5E9"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "TCP/IP",
+                            "text": "Understanding of the TCP/IP protocol suite for network communication, troubleshooting and security analysis.",
+                            "level": "<strong>Intermediate · Networking fundamentals<strong>"
+                        },
+                        "es": {
+                            "title": "TCP/IP",
+                            "text": "Comprensión de la suite de protocolos TCP/IP para comunicación en red, resolución de problemas y análisis de seguridad.",
+                            "level": "<strong>Intermedio · Fundamentos de redes<strong>"
+                        },
+                        "fr": {
+                            "title": "TCP/IP",
+                            "text": "Compréhension de la suite de protocoles TCP/IP pour la communication réseau, le dépannage et l'analyse de sécurité.",
+                            "level": "<strong>Intermédiaire · Fondamentaux réseau<strong>"
+                        },
+                        "pt-br": {
+                            "title": "TCP/IP",
+                            "text": "Compreensão do conjunto de protocolos TCP/IP para comunicação em rede, resolução de problemas e análise de segurança.",
+                            "level": "<strong>Intermediário · Fundamentos de redes<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {"bg": "", "fill": "#F59E0B"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "DNS",
+                            "text": "Configuration and troubleshooting of DNS services, understanding domain resolution and its role in network security.",
+                            "level": "<strong>Intermediate · Domain resolution & security<strong>"
+                        },
+                        "es": {
+                            "title": "DNS",
+                            "text": "Configuración y resolución de problemas de servicios DNS, comprensión de la resolución de dominios y su rol en la seguridad de redes.",
+                            "level": "<strong>Intermedio · Resolución de dominios y seguridad<strong>"
+                        },
+                        "fr": {
+                            "title": "DNS",
+                            "text": "Configuration et dépannage des services DNS, compréhension de la résolution de domaines et de son rôle dans la sécurité réseau.",
+                            "level": "<strong>Intermédiaire · Résolution de domaines et sécurité<strong>"
+                        },
+                        "pt-br": {
+                            "title": "DNS",
+                            "text": "Configuração e resolução de problemas de serviços DNS, compreensão da resolução de domínios e seu papel na segurança de redes.",
+                            "level": "<strong>Intermediário · Resolução de domínios e segurança<strong>"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-solid fa-router",
+                    "faIconColors": {"bg": "", "fill": "#8B5CF6"},
+                    "date": null,
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "DHCP",
+                            "text": "Configuration and management of DHCP services for dynamic IP address assignment across virtual lab environments.",
+                            "level": "<strong>Intermediate · Network configuration<strong>"
+                        },
+                        "es": {
+                            "title": "DHCP",
+                            "text": "Configuración y gestión de servicios DHCP para asignación dinámica de direcciones IP en entornos de laboratorio virtual.",
+                            "level": "<strong>Intermedio · Configuración de redes<strong>"
+                        },
+                        "fr": {
+                            "title": "DHCP",
+                            "text": "Configuration et gestion des services DHCP pour l'attribution dynamique d'adresses IP dans des environnements de laboratoire virtuel.",
+                            "level": "<strong>Intermédiaire · Configuration réseau<strong>"
+                        },
+                        "pt-br": {
+                            "title": "DHCP",
+                            "text": "Configuração e gerenciamento de serviços DHCP para atribuição dinâmica de endereços IP em ambientes de laboratório virtual.",
+                            "level": "<strong>Intermediário · Configuração de rede<strong>"
                         }
                     }
                 }
